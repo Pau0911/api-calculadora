@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +14,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "supertest": "^6.1.1"
+    
   }
 }

@@ -2,7 +2,7 @@
   "name": "dojo-jest",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest --verbose"
   },
@@ -14,7 +14,5 @@
   "dependencies": {
     "express": "^4.17.1",
     "supertest": "^6.1.1"
-    
-    
   }
 }

@@ -43,15 +43,14 @@ describe("Testing /add path",()=>{
     });
 
 
-    test("it should return a correct answer ",done=>{
+    test("it should return a valid json objetc ", done => {
         request(app)
-        .get("/app?a=1&b=4")
-        .then(response=>{
-            expect(response.body.result).toBe(5);
+        .get("/add?a=1&b=1")
+        .then(response => {
+            expect(response.body).not.toBeNull();
+            expect(response.body.result).not.toBeUndefined();
             done();
-            
         });
-
     });
 
 
